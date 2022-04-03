@@ -1,4 +1,5 @@
 // import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import UseReview from '../../Hooks/UseReview';
 import Review from '../Review/Review';
 import './Home.css'
@@ -18,10 +19,10 @@ const Home = () => {
                 reviews.map(review => <Review
                 key={review.id}
                 review={review}
-                ></Review>)
+                ></Review>).slice(0,3)
             }
         </div>
-        <button className='rest-review'>See More</button>
+        <Link to='/reviews' className='rest-review'>See More</Link>
         </>
     );
 };
