@@ -5,9 +5,11 @@
     height: 90vh;
 }
 .home-container img{
-    width: 400px;
+    width: 500px;
 }
-
+.home-container p{
+    font-size: 20px;
+}
 .first-heading{
     font-size: 60px;
     color: rgb(58, 148, 36);
