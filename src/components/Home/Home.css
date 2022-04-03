@@ -16,3 +16,11 @@
     font-size: 48px;
     color: rgb(45, 42, 42);
 }
+
+.review-container{
+    height: 90vh;
+}
+
+.review-container h1{
+    font-size: 48px;
+}
