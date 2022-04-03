@@ -1,0 +1,18 @@
+.home-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+.home-container img{
+    width: 400px;
+}
+
+.first-heading{
+    font-size: 60px;
+    color: rgb(58, 148, 36);
+}
+.second-heading{
+    font-size: 48px;
+    color: rgb(45, 42, 42);
+}
