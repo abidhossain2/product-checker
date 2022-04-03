@@ -1,0 +1,14 @@
+.personal-review{
+    width: 300px;
+    height: 390px;
+    margin: 60px auto;
+    border-radius: 9px;
+    padding: 8px;
+    box-shadow: 0px 0px 4px #bebebe;
+}
+
+.personal-review img{
+    width: 300px;
+    height: 200px;
+    border-radius: 9px;
+}

@@ -1,0 +1,38 @@
+ [
+    {   "id": 1,
+        "name" : "Jhon Doe",
+        "img": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "review" : "The chair itself has actually held up very well. The back, arms and tilt function all work perfectly with no signs of wear. It is amazing",
+        "ratings" : "4.5"
+    },
+    {   "id": 2,
+        "name" : "Adam Chole",
+        "img" : "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "review" : "I was a bit hesitate at first not sure what to expect, but we love it and ordered a second chair. Very comfortable, durable and trendy",
+        "ratings" : "4"
+    },
+    {   "id": 3,
+        "name" : "Jack Ryder",
+        "img" : "https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "review" : "I bought this chair for my elderly mother. This chair is big and fluffy. Great for relaxing and cuddles you up in total comfort. Priceless",
+        "ratings" : "5"
+    },
+    {   "id": 4,
+        "name" : "Jhon Smith",
+        "img" : "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzh8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "review" : "I bought this for a tight spot, it fit there well and was still comfortable. It was very easy to put together too",
+        "ratings" : "5"
+    },
+    {   "id": 5,
+        "name" : "Shawn Jackson",
+        "img" : "https://images.unsplash.com/photo-1530268729831-4b0b9e170218?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTR8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "review" : "The chair is comfortable. It sits closer to a 90 degree angle than most recliners. Cup holders are convenient",
+        "ratings" : "4.5"
+    },
+    {   "id": 6,
+        "name" : "Luke Shaw",
+        "img" : "https://images.unsplash.com/photo-1579540252588-da0ee883560d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjc3fHxwZXJzb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "review" : "I've had it a littler over a month and I already found a seem at the head rest separating from the back of chair ",
+        "ratings" : "5"
+    }
+]

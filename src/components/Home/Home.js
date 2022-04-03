@@ -1,6 +1,9 @@
-import React from 'react';
+// import React, { useEffect, useState } from 'react';
+import UseReview from '../../Hooks/UseReview';
+import Review from '../Review/Review';
 import './Home.css'
 const Home = () => {
+    const [reviews] = UseReview();
     return (
         <>
         <div className='home-container'>
@@ -9,9 +12,16 @@ const Home = () => {
             </div>
             <img src="http://cdn.home-designing.com/wp-content/uploads/2016/12/grey-wingback-and-ottoman-cool-reading-chairs-600x479.jpg" alt="" />
         </div>
-        <div className='review-container'>
             <h1>Buyer Review</h1>
+        <div className='review-container'>
+            {
+                reviews.map(review => <Review
+                key={review.id}
+                review={review}
+                ></Review>)
+            }
         </div>
+        <button className='rest-review'>See More</button>
         </>
     );
 };
