@@ -1,22 +1,90 @@
 .home-container{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
     align-items: center;
     height: 90vh;
 }
+
 .home-container img{
-    width: 500px;
+    width: 600px;
+}
+.first-heading{
+    font-size: 65px;
+    color: rgb(58, 148, 36);
+}
+.second-heading{
+    font-size: 50px;
+    color: rgb(45, 42, 42);
 }
 .home-container p{
     font-size: 20px;
 }
-.first-heading{
-    font-size: 60px;
-    color: rgb(58, 148, 36);
+
+@media (max-width:992px) {
+    .home-container{
+        /* flex-direction: column-reverse; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 30px;
+        justify-items: center;
+        
+    }
+    .home-container img{
+        width: 450px;
+        order: 1;
+    }
+    .heading{
+        order: 2;
+    }
+    .first-heading{
+        font-size: 50px;
+    }
+    .second-heading{
+        font-size: 38px;
+    }
 }
-.second-heading{
-    font-size: 48px;
-    color: rgb(45, 42, 42);
+@media (max-width:768px) {
+    .home-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 30px;
+        justify-items: center;
+    }
+    .home-container img{
+        width: 400px;
+        order: 1;
+    }
+    .heading{
+        order: 2;
+    }
+    .first-heading{
+        font-size: 45px;
+    }
+    .second-heading{
+        font-size: 33px;
+    }
+}
+@media (max-width:576px) {
+    .home-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 20px;
+        justify-items: center;
+    }
+    .home-container img{
+        width: 350px;
+        order: 1;
+    }
+    .heading{
+        order: 2;
+    }
+    .first-heading{
+        font-size: 40px;
+    }
+    .second-heading{
+        font-size: 28px;
+    }
 }
 
 .review-container{
@@ -29,6 +97,36 @@
     font-size: 48px;
 }
 
+@media (max-width: 992px) {
+    .review-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+    }
+    .review-container h1{
+        font-size: 38px;
+    }
+}
+@media (max-width: 768px) {
+    .review-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+    .review-container h1{
+        font-size: 33px;
+    }
+}
+@media (max-width: 576px) {
+    .review-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+    .review-container h1{
+        font-size: 28px;
+    }
+}
 .rest-review{
     width: 150px;
     display: block;

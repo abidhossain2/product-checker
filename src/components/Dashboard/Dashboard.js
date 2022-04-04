@@ -8,7 +8,7 @@ const Dashboard = () => {
         <div className='dashboard-container'>
             <div>
                 <h4>Sell (Month)</h4>
-                <LineChart width={500} height={400} data={data}>
+                <LineChart className='line-chart' width={300} height={300} data={data}>
                     <Line type="monotone" dataKey="sell" stroke="#8884d8" />
                     <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
                     <XAxis dataKey="month" />
@@ -18,7 +18,7 @@ const Dashboard = () => {
             </div>
             <div>
                 <h4>Investment vs Revenue (Month)</h4>
-                <BarChart width={500} height={400} data={data}>
+                <BarChart width={300} height={300} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" />
                     <YAxis />
