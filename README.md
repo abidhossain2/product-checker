@@ -1,6 +1,6 @@
 # Product Checker
 
-Live site link  https://sensational-kheer-7d4faa.netlify.app
+Live site link  https://celebrated-alpaca-3ee1a7.netlify.app/
 
 ## Project Detail
 * React router DOM has been used in this project. Active link has also been used so that we can understand which route is active. 
